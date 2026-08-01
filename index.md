@@ -4,7 +4,7 @@ title: 小马 Pony — 隐私政策 / Privacy Policy
 
 # 小马 Pony · 隐私政策
 
-**最后更新：2026 年 7 月 27 日**
+**最后更新：2026 年 7 月 31 日**
 
 小马（Pony）是一款日语与英语学习应用，由 **Roma Tech LLC** 开发。
 本政策说明这款应用收集什么、不收集什么，以及为什么。iOS 版与 Android 版的
@@ -17,8 +17,9 @@ title: 小马 Pony — 隐私政策 / Privacy Policy
   iOS 上不会弹出 App Tracking Transparency 授权框，因为我们没有可追踪的东西。
 - **不收集设备标识符。** 不使用广告标识符（IDFA / GAID）、不使用 Android ID、
   不使用 IMEI 或任何硬件序列号。
-- **不上传你输入的文字。** 你在「学习目标」里手写的内容**只保存在你的设备上**，
-  不会离开设备。
+- **不上传你输入的文字（一个例外见下）。** 你在「学习目标」里手写的内容
+  **只保存在你的设备上**，不会离开设备。唯一的例外：卡片报错里选「其他」时
+  你**自愿填写**的那句说明（见「匿名使用统计」）。
 - **不上传录音。** 见下方「跟读发音」一节。
 
 ## 我们收集的东西
@@ -28,6 +29,10 @@ title: 小马 Pony — 隐私政策 / Privacy Policy
 为了改进课程，应用会发送学习行为事件：应用启动、课程开始与完成、
 每道练习题的对错与作答耗时、复习完成、引导流程中选择的学习目标与语言水平、
 以及付费页的展示与购买结果。
+
+你在卡片上点「报错」并选择「其他」时，可以**自愿**填写一句说明（不超过
+200 字）。这句话会随报错事件一起发送，**仅用于改进课程内容**，同样匿名、
+不与任何身份关联。不填写不影响报错。
 
 每条事件附带：应用版本、构建号、系统语言、操作系统版本、距首次安装的天数。
 
@@ -41,7 +46,7 @@ title: 小马 Pony — 隐私政策 / Privacy Policy
 | | iOS | Android |
 |---|---|---|
 | 匿名使用统计 | 收集 | 收集 |
-| 跟读发音（麦克风） | 有此功能 | **无此功能** |
+| 跟读发音（麦克风） | 有此功能 | 有此功能 |
 
 ### 数据处理方
 
@@ -49,11 +54,11 @@ title: 小马 Pony — 隐私政策 / Privacy Policy
 代我们处理。它是受我们指示、代表我们处理数据的服务提供方，不将数据用于
 自身目的，也不出售数据。除此之外，我们不与任何第三方共享数据。
 
-## 跟读发音（仅 iOS）
+## 跟读发音
 
-跟读打分使用 Apple 的语音识别框架。**录音不会发送到我们的服务器**，
-也不会被我们存储——识别在设备上或由 Apple 的服务完成，我们只收到一个
-分数（0–100）和识别语言。麦克风权限由系统弹窗征询，你可以随时拒绝或
+跟读打分在 iOS 上使用 Apple 的语音识别框架，在 Android 上使用系统自带的
+语音识别（**仅限离线模式**）。**录音不会发送到我们的服务器**，也不会被我们
+存储——识别在你的设备上完成，我们只收到一个分数（0–100）和识别语言。麦克风权限由系统弹窗征询，你可以随时拒绝或
 在系统设置中撤销；拒绝后其余功能完全不受影响。
 
 ## 你的学习进度
@@ -88,7 +93,7 @@ iOS 版若你开启了 iCloud，进度会备份到**你自己的 iCloud 账户**
 
 # Pony — Privacy Policy
 
-**Last updated: 27 July 2026**
+**Last updated: 31 July 2026**
 
 Pony is a Japanese and English learning app built by **Roma Tech LLC**. This
 policy describes what the app collects, what it does not, and why. The iOS and
@@ -103,8 +108,10 @@ Android versions differ; both are covered below.
   prompt because there is nothing to track.
 - **No device identifiers.** We do not use the advertising identifier (IDFA /
   GAID), the Android ID, the IMEI, or any hardware serial number.
-- **No text you type.** Anything you write in the "learning goal" field stays
-  **on your device** and is never transmitted.
+- **No text you type (with one exception, below).** Anything you write in the
+  "learning goal" field stays **on your device** and is never transmitted. The
+  single exception is the note you may **voluntarily** attach when reporting a
+  card issue (see "Anonymous usage analytics").
 - **No audio recordings.** See "Pronunciation practice" below.
 
 ## What we do collect
@@ -115,6 +122,11 @@ To improve the course, the app sends learning-activity events: app opens,
 lessons started and finished, whether each practice item was answered
 correctly and how long it took, review sessions, the goal and level chosen
 during onboarding, and paywall impressions and purchase outcomes.
+
+When you report a card issue and choose "other", you may **voluntarily** type
+a short note (up to 200 characters). It is sent with the report, is used
+**only to improve the course content**, and is anonymous like everything
+else. Reporting works without it.
 
 Each event carries the app version, build number, system locale, OS version,
 and the number of days since first install.
@@ -130,7 +142,7 @@ connected.
 | | iOS | Android |
 |---|---|---|
 | Anonymous usage analytics | Collected | Collected |
-| Pronunciation practice (microphone) | Available | **Not available** |
+| Pronunciation practice (microphone) | Available | Available |
 
 ### Processor
 
@@ -139,12 +151,12 @@ Anonymous analytics are processed on our behalf by **TelemetryDeck**
 our instructions. It does not use the data for its own purposes and does not
 sell it. We share data with no one else.
 
-## Pronunciation practice (iOS only)
+## Pronunciation practice
 
-Pronunciation scoring uses Apple's speech recognition framework. **Recordings
-are never sent to our servers** and are not stored by us — recognition happens
-on the device or through Apple's service, and we receive only a score (0–100)
-and the language. The system asks for microphone permission; you may decline
+Pronunciation scoring uses Apple's speech recognition framework on iOS and the
+system speech recognizer on Android (**offline-only mode**). **Recordings are
+never sent to our servers** and are not stored by us — recognition happens on
+your device, and we receive only a score (0–100) and the language. The system asks for microphone permission; you may decline
 or revoke it at any time in Settings, and nothing else in the app is affected.
 
 ## Your learning progress
