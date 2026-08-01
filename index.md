@@ -1,10 +1,12 @@
 ---
-title: 小马 Pony — 隐私政策 / Privacy Policy
+title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリシー
 ---
 
-# 小马 Pony · 隐私政策
+[中文](#zh) · [English](#en) · [日本語](#ja)
 
-**最后更新：2026 年 7 月 31 日**
+# 小马 Pony · 隐私政策 {#zh}
+
+**最后更新：2026 年 8 月 1 日**
 
 小马（Pony）是一款日语与英语学习应用，由 **Roma Tech LLC** 开发。
 本政策说明这款应用收集什么、不收集什么，以及为什么。iOS 版与 Android 版的
@@ -62,7 +64,9 @@ title: 小马 Pony — 隐私政策 / Privacy Policy
 
 跟读打分在 iOS 上使用 Apple 的语音识别框架，在 Android 上使用系统自带的
 语音识别（**仅限离线模式**）。**录音不会发送到我们的服务器**，也不会被我们
-存储——识别在你的设备上完成，我们只收到一个分数（0–100）和识别语言。麦克风权限由系统弹窗征询，你可以随时拒绝或
+存储——识别在你的设备上完成，我们只收到一个分数（0–100）和识别语言。
+朗读时「读到哪里、哪里变绿」的实时提示同样完全在设备上计算，不涉及任何
+上传。麦克风权限由系统弹窗征询，你可以随时拒绝或
 在系统设置中撤销；拒绝后其余功能完全不受影响。
 
 ## 你的学习进度
@@ -95,9 +99,9 @@ iOS 版若你开启了 iCloud，进度会备份到**你自己的 iCloud 账户**
 
 ---
 
-# Pony — Privacy Policy
+# Pony — Privacy Policy {#en}
 
-**Last updated: 31 July 2026**
+**Last updated: 1 August 2026**
 
 Pony is a Japanese and English learning app built by **Roma Tech LLC**. This
 policy describes what the app collects, what it does not, and why. The iOS and
@@ -165,7 +169,10 @@ sell it. We share data with no one else.
 Pronunciation scoring uses Apple's speech recognition framework on iOS and the
 system speech recognizer on Android (**offline-only mode**). **Recordings are
 never sent to our servers** and are not stored by us — recognition happens on
-your device, and we receive only a score (0–100) and the language. The system asks for microphone permission; you may decline
+your device, and we receive only a score (0–100) and the language. The
+real-time highlight that turns the target text green as you read it is
+likewise computed entirely on your device; nothing is uploaded.
+The system asks for microphone permission; you may decline
 or revoke it at any time in Settings, and nothing else in the app is affected.
 
 ## Your learning progress
@@ -199,3 +206,119 @@ Store and Google Play data disclosures.
 
 **Roma Tech LLC**
 Email: <a href="mailto:roma.tech.ai@gmail.com">roma.tech.ai@gmail.com</a>
+
+---
+
+# Pony（小马）— プライバシーポリシー {#ja}
+
+**最終更新日：2026 年 8 月 1 日**
+
+Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語および英語の学習
+アプリです。本ポリシーでは、本アプリが何を取得し、何を取得しないか、
+またその理由を説明します。iOS 版と Android 版で挙動が異なる点は、それぞれ
+明記します。
+
+## 取得しないもの
+
+- **アカウントはありません。** 会員登録もログインも不要です。お客様の
+  氏名・メールアドレス・電話番号を当社は保有していません。
+- **アプリ間・サイト間のトラッキングは行いません。** 広告 SDK やデータ
+  ブローカーは利用せず、ターゲティング広告も配信しません。iOS で
+  App Tracking Transparency の許可ダイアログが表示されないのは、
+  追跡する対象がそもそも存在しないためです。
+- **端末識別子を取得しません。** 広告識別子（IDFA / GAID）、Android ID、
+  IMEI、その他のハードウェアシリアル番号は一切使用しません。
+- **入力されたテキストは送信しません（下記の 1 点を除く）。**
+  「学習の目的」欄に記入された内容は**お使いの端末内にのみ保存**され、
+  端末外に送信されることはありません。唯一の例外は、カードの不具合報告で
+  「その他」を選択した際に**任意で**記入いただく説明文です
+  （「匿名の利用統計」を参照）。
+- **録音データを送信しません。** 下記「発音練習」をご覧ください。
+
+## 取得するもの
+
+### 匿名の利用統計
+
+教材を改善するため、学習に関する操作イベントを送信します。具体的には、
+アプリの起動、レッスンの開始と完了、各設問の正誤と解答所要時間、復習の
+完了、初回設定で選択された学習目的とレベル、および有料プラン画面の表示と
+購入結果です。
+
+カードの不具合報告で「その他」を選択した場合、**任意で**説明文
+（200 文字以内）を記入できます。この文章は報告と一緒に送信され、
+**教材の改善のみに使用**されます。他の情報と同様に匿名で、いかなる身元
+情報とも結び付きません。記入しなくても報告は送信できます。
+
+不具合報告には、表示上の問題を調査するため**その時点のカード画面の
+スクリーンショット**が添付されます。撮影されるのは本アプリ自身の画面のみで、
+アプリ外の内容が写ることは技術的にあり得ません。スクリーンショットも報告と
+同様に匿名で、問題の修正以外の目的には使用しません。
+
+各イベントには、アプリのバージョン、ビルド番号、システムの言語設定、OS の
+バージョン、初回インストールからの経過日数が付随します。
+
+これらのイベントは、**お使いの端末上でランダムに生成された識別子**に
+紐付きます。これは Apple ID でも Google アカウントでも端末識別子でもなく、
+氏名・メールアドレス・アカウントのいずれとも結び付きません（Pony には
+そもそもアカウントの仕組みがありません）。**アプリを削除して再インストール
+すると識別子はリセットされ**、前後のデータを関連付けることはできません。
+
+### プラットフォームによる違い
+
+| | iOS | Android |
+|---|---|---|
+| 匿名の利用統計 | 取得します | 取得します |
+| 発音練習（マイク） | 利用できます | 利用できます |
+
+### 処理の委託先
+
+匿名の利用統計は、当社の指示に基づき
+**TelemetryDeck**（[telemetrydeck.com](https://telemetrydeck.com)）が
+当社に代わって処理します。同社が自社の目的でデータを利用したり、
+データを販売したりすることはありません。これ以外の第三者とデータを
+共有することはありません。
+
+## 発音練習
+
+発音の採点には、iOS では Apple の音声認識フレームワークを、Android では
+OS 標準の音声認識（**オフライン専用モード**）を使用します。
+**録音データが当社のサーバーへ送信されることはなく**、当社が保存することも
+ありません。認識はお使いの端末内で完結し、当社が受け取るのはスコア
+（0〜100）と認識に使用した言語のみです。読み上げに合わせて対象の文字が
+緑色に変わるリアルタイム表示も、すべて端末内で計算しており、送信は
+一切発生しません。マイクの利用許可は OS のダイアログでお伺いします。
+いつでも拒否でき、設定からの取り消しも可能です。拒否された場合でも、
+その他の機能には一切影響ありません。
+
+## 学習の進捗
+
+学習の進捗、復習スケジュール、経験値は**お使いの端末内**に保存されます。
+
+iOS 版で iCloud をご利用の場合、進捗は**お客様ご自身の iCloud アカウント**
+にバックアップされます。これはお客様のアカウントであり、当社が読み取ることは
+できません。
+
+## お子様について
+
+本アプリは成人の学習者を対象としており、13 歳未満のお子様を対象とした
+サービスではありません。お子様の個人情報を意図的に取得することはありません。
+
+## お客様の権利
+
+当社はお客様を特定できる情報を一切保有していないため、「お客様の」データを
+特定することができません。アプリを削除すればすべての取得が停止し、
+再インストールすると新しい匿名の識別子が生成されます。
+
+データの取り扱いについてご不明な点がありましたら、下記の連絡先までお問い
+合わせください。
+
+## 変更について
+
+本ポリシーを変更した場合は、本ページ冒頭の日付を更新します。データの
+取り扱いに関する重要な変更は、App Store および Google Play のデータ開示にも
+反映します。
+
+## お問い合わせ
+
+**Roma Tech LLC**
+メール：<a href="mailto:roma.tech.ai@gmail.com">roma.tech.ai@gmail.com</a>
