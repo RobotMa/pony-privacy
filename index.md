@@ -34,6 +34,10 @@ title: 小马 Pony — 隐私政策 / Privacy Policy
 200 字）。这句话会随报错事件一起发送，**仅用于改进课程内容**，同样匿名、
 不与任何身份关联。不填写不影响报错。
 
+报错时会附上**当前卡片画面的截图**（仅含本应用自己的界面，技术上不可能
+包含应用之外的内容），用于排查显示类问题。截图与报错一样匿名，仅用于
+修复问题，不用于任何其他目的。
+
 每条事件附带：应用版本、构建号、系统语言、操作系统版本、距首次安装的天数。
 
 这些事件关联到一个**在你的设备上随机生成的标识符**。它不是你的 Apple ID，
@@ -127,6 +131,11 @@ When you report a card issue and choose "other", you may **voluntarily** type
 a short note (up to 200 characters). It is sent with the report, is used
 **only to improve the course content**, and is anonymous like everything
 else. Reporting works without it.
+
+Card reports include a **screenshot of the current card screen** (it shows
+only this app's own interface — it technically cannot capture anything
+outside the app), used to diagnose display issues. Like the report itself it
+is anonymous and used for nothing else.
 
 Each event carries the app version, build number, system locale, OS version,
 and the number of days since first install.
