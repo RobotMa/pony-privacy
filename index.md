@@ -23,7 +23,8 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
   不使用 IMEI 或任何硬件序列号。
 - **不上传你输入的文字（一个例外见下）。** 你在「学习目标」里手写的内容
   **只保存在你的设备上**，不会离开设备。唯一的例外：卡片报错里选「其他」时
-  你**自愿填写**的那句说明（见「匿名使用统计」）。
+  你**自愿填写**的那段说明（见「匿名使用统计」）。报错随附的诊断信息里
+  同样没有你输入的文字。
 - **不上传录音。** 见下方「跟读发音」一节。
 
 ## 我们收集的东西
@@ -32,15 +33,21 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 
 为了改进课程，应用会发送学习行为事件：应用启动、课程开始与完成、
 每道练习题的对错与作答耗时、复习完成、引导流程中选择的学习目标与语言水平、
-以及付费页的展示与购买结果。
+付费页的展示与购买结果，以及（如果你登录了）一次「已登录」的计数——
+只记录这件事发生过，不含姓名或任何身份信息。
 
-你在卡片上点「报错」并选择「其他」时，可以**自愿**填写一句说明（不超过
-200 字）。这句话会随报错事件一起发送，**仅用于改进课程内容**，同样匿名、
+此外，iOS 版在界面出现卡顿时会发送一条性能事件：卡顿出现在哪个环节
+（打字、判题、报错弹窗）、次数、最长耗时。不卡就不发。
+
+你在卡片上点「报错」并选择「其他」时，可以**自愿**填写一段说明（不超过
+500 字）。这段话会随报错事件一起发送，**仅用于改进课程内容**，同样匿名、
 不与任何身份关联。不填写不影响报错。
 
 报错时会附上**当前卡片画面的截图**（仅含本应用自己的界面，技术上不可能
-包含应用之外的内容），用于排查显示类问题。截图与报错一样匿名，仅用于
-修复问题，不用于任何其他目的。
+包含应用之外的内容），用于排查显示类问题。截图下方还拼着一条**匿名诊断
+信息**：最近若干条会话事件——卡片切换、音频播放、录音、卡顿耗时等。它
+**不包含你输入的文字**：打字只记录长度，音频只记录课程文本的前几个字。
+截图和诊断信息与报错一样匿名，仅用于修复问题，不用于任何其他目的。
 
 每条事件附带：应用版本、构建号、系统语言、操作系统版本、距首次安装的天数。
 
@@ -58,11 +65,20 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 | 跟读发音（麦克风） | 有此功能 | 有此功能 |
 | 登录（可选，只要姓名） | 通过 Apple 登录 | 没有登录，只有本机昵称 |
 
-### 数据处理方
+### 数据处理方与基础设施
 
 匿名统计由 **TelemetryDeck**（[telemetrydeck.com](https://telemetrydeck.com)）
 代我们处理。它是受我们指示、代表我们处理数据的服务提供方，不将数据用于
-自身目的，也不出售数据。除此之外，我们不与任何第三方共享数据。
+自身目的，也不出售数据。
+
+报错截图存放在**我们自己的 iCloud（CloudKit）容器**里，只有我们能读取。
+Android 版的截图先经过**我们自己的中转服务器**，并用 **Google Play
+Integrity** 确认这次上传来自正版安装——这一步是为了挡住伪造上传，与你的
+身份无关。
+
+以上都是替我们干活的处理方和基础设施，用途仅限本政策写明的那些。
+**我们不向数据经纪商出售或共享任何数据，也不用它做广告定向**；除上述
+用途外，我们不与任何第三方共享数据。
 
 ## 跟读发音
 
@@ -77,7 +93,7 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 
 iOS 版的「通过 Apple 登录」是**可选**的，它唯一的作用是让「我的」页显示一个
 名字。我们只向 Apple 索取**姓名**，不索取邮箱；拿到的姓名**只保存在你自己的
-设备上，从不上传**——我们没有服务器可以接收它，它也被有意排除在 iCloud 备份
+设备上，从不上传**——它不会发往我们的任何服务器，也被有意排除在 iCloud 备份
 之外，不会同步到你的其他设备。登录时苹果还会给出一个**只对小马有效**的匿名
 用户编号，用来确认授权是否仍然有效；它和姓名一样只存在你的设备上。你可以
 随时在应用内退出登录，退出即把两者一并从设备上删除，学习进度不受影响。
@@ -141,7 +157,8 @@ Android versions differ; both are covered below.
 - **No text you type (with one exception, below).** Anything you write in the
   "learning goal" field stays **on your device** and is never transmitted. The
   single exception is the note you may **voluntarily** attach when reporting a
-  card issue (see "Anonymous usage analytics").
+  card issue (see "Anonymous usage analytics"; the diagnostics attached to a
+  report never include text you typed).
 - **No audio recordings.** See "Pronunciation practice" below.
 
 ## What we do collect
@@ -151,17 +168,28 @@ Android versions differ; both are covered below.
 To improve the course, the app sends learning-activity events: app opens,
 lessons started and finished, whether each practice item was answered
 correctly and how long it took, review sessions, the goal and level chosen
-during onboarding, and paywall impressions and purchase outcomes.
+during onboarding, paywall impressions and purchase outcomes, and — if you
+sign in — a single "signed in" count, which records only that it happened,
+with no name and nothing that identifies you.
+
+On iOS the app also sends a performance event when the interface stalls:
+where the stall happened (typing, answer checking, the report dialog), how
+many times, and the longest duration. Nothing is sent when nothing stalls.
 
 When you report a card issue and choose "other", you may **voluntarily** type
-a short note (up to 200 characters). It is sent with the report, is used
-**only to improve the course content**, and is anonymous like everything
-else. Reporting works without it.
+a note (up to 500 characters). It is sent with the report, is used **only to
+improve the course content**, and is anonymous like everything else.
+Reporting works without it.
 
 Card reports include a **screenshot of the current card screen** (it shows
 only this app's own interface — it technically cannot capture anything
-outside the app), used to diagnose display issues. Like the report itself it
-is anonymous and used for nothing else.
+outside the app), used to diagnose display issues. Below the screenshot we
+append a strip of **anonymous diagnostics**: the most recent session events,
+such as card changes, audio playback, recording, and stall durations. It
+contains **none of the text you type** — typing is recorded as a length only,
+and audio as the first few characters of the course text. Like the report
+itself, the screenshot and the diagnostics are anonymous and used for nothing
+else.
 
 Each event carries the app version, build number, system locale, OS version,
 and the number of days since first install.
@@ -181,12 +209,23 @@ the app resets it**, and data from before and after cannot be connected.
 | Pronunciation practice (microphone) | Available | Available |
 | Signing in (optional, name only) | Sign in with Apple | No sign-in, local nickname only |
 
-### Processor
+### Processors and infrastructure
 
 Anonymous analytics are processed on our behalf by **TelemetryDeck**
 ([telemetrydeck.com](https://telemetrydeck.com)), a service provider acting on
 our instructions. It does not use the data for its own purposes and does not
-sell it. We share data with no one else.
+sell it.
+
+Card-report screenshots are stored in **our own iCloud (CloudKit) container**,
+readable only by us. On Android, screenshots pass through **our own relay
+server** and use **Google Play Integrity** to confirm the upload came from a
+genuine installation — an anti-abuse step that has nothing to do with your
+identity.
+
+These are processors and infrastructure working for us, used only for the
+purposes described in this policy. **We do not sell or share any data with
+data brokers, and we do not use it for ad targeting.** Beyond the uses above,
+we share data with no one.
 
 ## Pronunciation practice
 
@@ -204,7 +243,7 @@ or revoke it at any time in Settings, and nothing else in the app is affected.
 Sign in with Apple is **optional** and exists on iOS only. The one thing it
 does is put a name on your "Me" page. We ask Apple for your **name** only, not
 your email address, and the name we receive is **stored on your own device and
-never uploaded** — we have no server that could receive it, and it is
+never uploaded** — it is never sent to any server of ours, and it is
 deliberately excluded from the iCloud backup, so it does not sync to your other
 devices. Apple also returns an anonymous user ID that is **specific to Pony**,
 used to check whether the authorisation is still valid; like the name, it never
@@ -279,7 +318,8 @@ Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語およ�
   「学習の目的」欄に記入された内容は**お使いの端末内にのみ保存**され、
   端末外に送信されることはありません。唯一の例外は、カードの不具合報告で
   「その他」を選択した際に**任意で**記入いただく説明文です
-  （「匿名の利用統計」を参照）。
+  （「匿名の利用統計」を参照）。報告に添付される診断情報にも、入力された
+  テキストが含まれることはありません。
 - **録音データを送信しません。** 下記「発音練習」をご覧ください。
 
 ## 取得するもの
@@ -288,17 +328,26 @@ Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語およ�
 
 教材を改善するため、学習に関する操作イベントを送信します。具体的には、
 アプリの起動、レッスンの開始と完了、各設問の正誤と解答所要時間、復習の
-完了、初回設定で選択された学習目的とレベル、および有料プラン画面の表示と
-購入結果です。
+完了、初回設定で選択された学習目的とレベル、有料プラン画面の表示と購入結果、
+そしてサインインされた場合は「サインインした」という記録です。最後のものは
+その事実が起きたことだけを示し、氏名など身元に関わる情報は一切含みません。
+
+また iOS 版では、画面に引っかかり（ハング）が生じた際に性能イベントを送信
+します。内容は、どの場面で起きたか（入力中、正誤判定、不具合報告ダイアログ）、
+回数、最長の所要時間です。引っかかりがなければ何も送信しません。
 
 カードの不具合報告で「その他」を選択した場合、**任意で**説明文
-（200 文字以内）を記入できます。この文章は報告と一緒に送信され、
+（500 文字以内）を記入できます。この文章は報告と一緒に送信され、
 **教材の改善のみに使用**されます。他の情報と同様に匿名で、いかなる身元
 情報とも結び付きません。記入しなくても報告は送信できます。
 
 不具合報告には、表示上の問題を調査するため**その時点のカード画面の
 スクリーンショット**が添付されます。撮影されるのは本アプリ自身の画面のみで、
-アプリ外の内容が写ることは技術的にあり得ません。スクリーンショットも報告と
+アプリ外の内容が写ることは技術的にあり得ません。スクリーンショットの下部には
+**匿名の診断情報**（直近のセッションの記録：カードの切り替え、音声の再生、
+録音、引っかかりの所要時間など）が併記されます。ここに**入力されたテキストが
+含まれることはありません**。入力については文字数のみ、音声については教材の
+テキストの冒頭数文字のみを記録します。スクリーンショットと診断情報は報告と
 同様に匿名で、問題の修正以外の目的には使用しません。
 
 各イベントには、アプリのバージョン、ビルド番号、システムの言語設定、OS の
@@ -320,13 +369,23 @@ Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語およ�
 | 発音練習（マイク） | 利用できます | 利用できます |
 | サインイン（任意・氏名のみ） | 「Apple でサインイン」 | ありません（端末内の表示名のみ） |
 
-### 処理の委託先
+### 処理の委託先とインフラ
 
 匿名の利用統計は、当社の指示に基づき
 **TelemetryDeck**（[telemetrydeck.com](https://telemetrydeck.com)）が
 当社に代わって処理します。同社が自社の目的でデータを利用したり、
-データを販売したりすることはありません。これ以外の第三者とデータを
-共有することはありません。
+データを販売したりすることはありません。
+
+不具合報告のスクリーンショットは、**当社自身の iCloud（CloudKit）
+コンテナ**に保存され、閲覧できるのは当社のみです。Android 版では、
+**当社自身の中継サーバー**を経由し、**Google Play Integrity** によって
+正規のインストールからの送信であることを確認します。これは偽装された
+送信を防ぐための手順であり、お客様の身元とは関係ありません。
+
+以上はいずれも当社のために処理を行う委託先およびインフラであり、
+本ポリシーに記載した目的以外には使用しません。**データブローカーへの
+販売や提供は行わず、広告のターゲティングにも使用しません。** 上記の用途
+以外に、第三者とデータを共有することはありません。
 
 ## 発音練習
 
@@ -344,8 +403,8 @@ OS 標準の音声認識（**オフライン専用モード**）を使用しま�
 
 「Apple でサインイン」は iOS 版のみの**任意**の機能で、その役割は「マイ
 ページ」に名前を表示することだけです。Apple に求めるのは**氏名のみ**で、
-メールアドレスは要求しません。取得した氏名は**お使いの端末内にのみ保存され、
-送信されることはありません**。受け取れるサーバーが当社に存在しないうえ、
+メールアドレスは要求しません。取得した氏名は**お使いの端末内にのみ保存され
+ます**。当社のいずれのサーバーにも送信されることはなく、
 iCloud バックアップの対象からも意図的に除外しているため、お客様の他の端末に
 同期されることもありません。サインイン時には、**Pony 専用**の匿名のユーザー
 識別子も Apple から渡されます。これは認証がまだ有効かどうかを確認するために
