@@ -6,7 +6,7 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 
 # 小马 Pony · 隐私政策 {#zh}
 
-**最后更新：2026 年 8 月 1 日**
+**最后更新：2026 年 8 月 23 日**
 
 小马（Pony）是一款日语与英语学习应用，由 **Roma Tech LLC** 开发。
 本政策说明这款应用收集什么、不收集什么，以及为什么。iOS 版与 Android 版的
@@ -14,7 +14,9 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 
 ## 我们不收集的东西
 
-- **没有账号。** 应用不要求注册、不要求登录，我们没有你的姓名、邮箱或电话。
+- **不收集你的邮箱或电话。** 应用不要求注册；登录是**可选的**（iOS 上的
+  「通过 Apple 登录」），即使登录，我们也只向 Apple 索取**姓名**一项，
+  邮箱和电话既不索取、也不保存。姓名的去向见下方「登录（可选）」。
 - **不做跨应用/跨网站追踪。** 没有广告 SDK，没有数据经纪商，不投放定向广告。
   iOS 上不会弹出 App Tracking Transparency 授权框，因为我们没有可追踪的东西。
 - **不收集设备标识符。** 不使用广告标识符（IDFA / GAID）、不使用 Android ID、
@@ -42,10 +44,11 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 
 每条事件附带：应用版本、构建号、系统语言、操作系统版本、距首次安装的天数。
 
-这些事件关联到一个**在你的设备上随机生成的标识符**。它不是你的 Apple ID，
-不是 Google 账号，不是任何设备标识符，也不与任何姓名、邮箱或账号关联——
-因为小马根本没有账号系统。**删除并重新安装应用，这个标识符即被重置**，
-新旧数据无法关联。
+这些事件关联到一个**在你的设备上随机生成的标识符**（一串随机 UUID，在离开
+设备之前还会先做一次哈希）。它不是你的 Apple ID，不是 Google 账号，不是任何
+设备标识符，也不与任何姓名、邮箱或账号关联——即使你用「通过 Apple 登录」，
+那个姓名也只留在你的设备上，从不进入统计。**删除并重新安装应用，这个标识符
+即被重置**，新旧数据无法关联。
 
 ### 平台差异
 
@@ -53,6 +56,7 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 |---|---|---|
 | 匿名使用统计 | 收集 | 收集 |
 | 跟读发音（麦克风） | 有此功能 | 有此功能 |
+| 登录（可选，只要姓名） | 通过 Apple 登录 | 没有登录，只有本机昵称 |
 
 ### 数据处理方
 
@@ -69,6 +73,20 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 上传。麦克风权限由系统弹窗征询，你可以随时拒绝或
 在系统设置中撤销；拒绝后其余功能完全不受影响。
 
+## 登录（可选）
+
+iOS 版的「通过 Apple 登录」是**可选**的，它唯一的作用是让「我的」页显示一个
+名字。我们只向 Apple 索取**姓名**，不索取邮箱；拿到的姓名**只保存在你自己的
+设备上，从不上传**——我们没有服务器可以接收它，它也被有意排除在 iCloud 备份
+之外，不会同步到你的其他设备。登录时苹果还会给出一个**只对小马有效**的匿名
+用户编号，用来确认授权是否仍然有效；它和姓名一样只存在你的设备上。你可以
+随时在应用内退出登录，退出即把两者一并从设备上删除，学习进度不受影响。
+
+**不登录不影响任何功能**：课程、复习、跟读发音，以及购买与恢复购买都照常
+可用（购买由 App Store 处理，与登不登录小马无关）。
+
+Android 版没有登录，只能设置一个**保存在本机**的昵称。
+
 ## 你的学习进度
 
 学习进度、复习计划、经验值等保存在**你自己的设备上**。
@@ -82,7 +100,8 @@ iOS 版若你开启了 iCloud，进度会备份到**你自己的 iCloud 账户**
 
 ## 你的权利
 
-由于我们不持有任何可识别你身份的信息，我们无法定位到「你的」数据。
+由于我们不持有任何可识别你身份的信息，我们无法定位到「你的」数据
+（「通过 Apple 登录」得到的姓名只存在于你自己的设备上，我们从未收到过）。
 删除应用即停止一切收集；重新安装会生成新的匿名标识符。
 
 如果你对数据处理有任何疑问，可通过下方邮箱联系我们。
@@ -101,7 +120,7 @@ iOS 版若你开启了 iCloud，进度会备份到**你自己的 iCloud 账户**
 
 # Pony — Privacy Policy {#en}
 
-**Last updated: 1 August 2026**
+**Last updated: 23 August 2026**
 
 Pony is a Japanese and English learning app built by **Roma Tech LLC**. This
 policy describes what the app collects, what it does not, and why. The iOS and
@@ -109,8 +128,11 @@ Android versions differ; both are covered below.
 
 ## What we do not collect
 
-- **No accounts.** The app has no sign-up and no login. We do not have your
-  name, email address, or phone number.
+- **No email address, no phone number.** The app has no sign-up, and signing
+  in is **optional** (Sign in with Apple, on iOS). Even when you do sign in,
+  the only thing we ask Apple for is your **name** — never your email address
+  or phone number. Where that name goes is described in "Signing in
+  (optional)" below.
 - **No cross-app or cross-site tracking.** No advertising SDKs, no data
   brokers, no targeted advertising. iOS shows no App Tracking Transparency
   prompt because there is nothing to track.
@@ -144,11 +166,12 @@ is anonymous and used for nothing else.
 Each event carries the app version, build number, system locale, OS version,
 and the number of days since first install.
 
-Events are keyed to an identifier **generated randomly on your device**. It is
-not your Apple ID, not a Google account, not any device identifier, and it is
-linked to no name, email, or account — Pony has no accounts. **Deleting and
-reinstalling the app resets it**, and data from before and after cannot be
-connected.
+Events are keyed to an identifier **generated randomly on your device** (a
+random UUID, hashed before it ever leaves the device). It is not your Apple
+ID, not a Google account, not any device identifier, and it is linked to no
+name, email, or account — even if you use Sign in with Apple, that name stays
+on your device and never reaches our analytics. **Deleting and reinstalling
+the app resets it**, and data from before and after cannot be connected.
 
 ### Platform differences
 
@@ -156,6 +179,7 @@ connected.
 |---|---|---|
 | Anonymous usage analytics | Collected | Collected |
 | Pronunciation practice (microphone) | Available | Available |
+| Signing in (optional, name only) | Sign in with Apple | No sign-in, local nickname only |
 
 ### Processor
 
@@ -175,6 +199,26 @@ likewise computed entirely on your device; nothing is uploaded.
 The system asks for microphone permission; you may decline
 or revoke it at any time in Settings, and nothing else in the app is affected.
 
+## Signing in (optional)
+
+Sign in with Apple is **optional** and exists on iOS only. The one thing it
+does is put a name on your "Me" page. We ask Apple for your **name** only, not
+your email address, and the name we receive is **stored on your own device and
+never uploaded** — we have no server that could receive it, and it is
+deliberately excluded from the iCloud backup, so it does not sync to your other
+devices. Apple also returns an anonymous user ID that is **specific to Pony**,
+used to check whether the authorisation is still valid; like the name, it never
+leaves your device. You can sign out inside the app at any time; signing out
+deletes both from the device and leaves your progress untouched.
+
+**Nothing requires you to sign in**: lessons, review, pronunciation practice,
+and purchases — including Restore Purchases — all work exactly the same
+signed out (purchases are handled by the App Store, independently of whether
+you are signed in to Pony).
+
+Android has no sign-in at all; it only lets you set a nickname that stays
+**on the device**.
+
 ## Your learning progress
 
 Progress, review scheduling, and XP are stored **on your own device**.
@@ -189,9 +233,10 @@ This app is intended for adult learners. It is not directed at children under
 
 ## Your rights
 
-Because we hold nothing that identifies you, we cannot locate "your" data.
-Deleting the app stops all collection; reinstalling generates a new anonymous
-identifier.
+Because we hold nothing that identifies you, we cannot locate "your" data (the
+name from Sign in with Apple exists only on your own device; we never receive
+it). Deleting the app stops all collection; reinstalling generates a new
+anonymous identifier.
 
 If you have questions about how data is handled, contact us at the address
 below.
@@ -211,7 +256,7 @@ Email: <a href="mailto:roma.tech.ai@gmail.com">roma.tech.ai@gmail.com</a>
 
 # Pony（小马）— プライバシーポリシー {#ja}
 
-**最終更新日：2026 年 8 月 1 日**
+**最終更新日：2026 年 8 月 23 日**
 
 Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語および英語の学習
 アプリです。本ポリシーでは、本アプリが何を取得し、何を取得しないか、
@@ -220,8 +265,10 @@ Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語およ�
 
 ## 取得しないもの
 
-- **アカウントはありません。** 会員登録もログインも不要です。お客様の
-  氏名・メールアドレス・電話番号を当社は保有していません。
+- **メールアドレスも電話番号も取得しません。** 会員登録は不要で、サインインは
+  **任意**です（iOS の「Apple でサインイン」）。サインインされた場合でも、
+  Apple に求めるのは**氏名のみ**で、メールアドレスや電話番号は要求も保存も
+  しません。氏名の取り扱いは下記「サインイン（任意）」をご覧ください。
 - **アプリ間・サイト間のトラッキングは行いません。** 広告 SDK やデータ
   ブローカーは利用せず、ターゲティング広告も配信しません。iOS で
   App Tracking Transparency の許可ダイアログが表示されないのは、
@@ -258,10 +305,12 @@ Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語およ�
 バージョン、初回インストールからの経過日数が付随します。
 
 これらのイベントは、**お使いの端末上でランダムに生成された識別子**に
-紐付きます。これは Apple ID でも Google アカウントでも端末識別子でもなく、
-氏名・メールアドレス・アカウントのいずれとも結び付きません（Pony には
-そもそもアカウントの仕組みがありません）。**アプリを削除して再インストール
-すると識別子はリセットされ**、前後のデータを関連付けることはできません。
+紐付きます（ランダムな UUID を、端末から送信する前にハッシュ化したもの）。
+これは Apple ID でも Google アカウントでも端末識別子でもなく、氏名・
+メールアドレス・アカウントのいずれとも結び付きません。「Apple でサインイン」
+をご利用の場合でも、取得した氏名は端末内に留まり、利用統計に含まれることは
+ありません。**アプリを削除して再インストールすると識別子はリセットされ**、
+前後のデータを関連付けることはできません。
 
 ### プラットフォームによる違い
 
@@ -269,6 +318,7 @@ Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語およ�
 |---|---|---|
 | 匿名の利用統計 | 取得します | 取得します |
 | 発音練習（マイク） | 利用できます | 利用できます |
+| サインイン（任意・氏名のみ） | 「Apple でサインイン」 | ありません（端末内の表示名のみ） |
 
 ### 処理の委託先
 
@@ -290,6 +340,27 @@ OS 標準の音声認識（**オフライン専用モード**）を使用しま�
 いつでも拒否でき、設定からの取り消しも可能です。拒否された場合でも、
 その他の機能には一切影響ありません。
 
+## サインイン（任意）
+
+「Apple でサインイン」は iOS 版のみの**任意**の機能で、その役割は「マイ
+ページ」に名前を表示することだけです。Apple に求めるのは**氏名のみ**で、
+メールアドレスは要求しません。取得した氏名は**お使いの端末内にのみ保存され、
+送信されることはありません**。受け取れるサーバーが当社に存在しないうえ、
+iCloud バックアップの対象からも意図的に除外しているため、お客様の他の端末に
+同期されることもありません。サインイン時には、**Pony 専用**の匿名のユーザー
+識別子も Apple から渡されます。これは認証がまだ有効かどうかを確認するために
+のみ使用し、氏名と同様に端末外へ送信されることはありません。アプリ内でいつ
+でもサインアウトでき、サインアウトすると氏名と識別子はいずれも端末から削除
+されます（学習の進捗はそのまま残ります）。
+
+**サインインしなくても、機能に一切の違いはありません。** レッスン、復習、
+発音練習、購入および購入の復元は、サインインの有無にかかわらず同じように
+ご利用いただけます（購入は App Store が処理するため、Pony へのサインインとは
+無関係です）。
+
+Android 版にサインインの仕組みはなく、**端末内に保存される**表示名を設定
+できるのみです。
+
 ## 学習の進捗
 
 学習の進捗、復習スケジュール、経験値は**お使いの端末内**に保存されます。
@@ -306,8 +377,9 @@ iOS 版で iCloud をご利用の場合、進捗は**お客様ご自身の iClou
 ## お客様の権利
 
 当社はお客様を特定できる情報を一切保有していないため、「お客様の」データを
-特定することができません。アプリを削除すればすべての取得が停止し、
-再インストールすると新しい匿名の識別子が生成されます。
+特定することができません（「Apple でサインイン」で取得した氏名もお使いの
+端末内にのみ存在し、当社が受け取ることはありません）。アプリを削除すれば
+すべての取得が停止し、再インストールすると新しい匿名の識別子が生成されます。
 
 データの取り扱いについてご不明な点がありましたら、下記の連絡先までお問い
 合わせください。
