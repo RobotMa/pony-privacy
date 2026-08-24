@@ -6,7 +6,7 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 
 # 小马 Pony · 隐私政策 {#zh}
 
-**最后更新：2026 年 8 月 23 日**
+**最后更新：2026 年 8 月 24 日**
 
 小马（Pony）是一款日语与英语学习应用，由 **Roma Tech LLC** 开发。
 本政策说明这款应用收集什么、不收集什么，以及为什么。iOS 版与 Android 版的
@@ -105,6 +105,13 @@ Google 账户，并可能在重装或换机时恢复。平台备份由 Apple 或
 本地化价格、解锁内容、恢复购买及管理订阅；匿名统计会记录商品 ID、显示价格、
 购买类型和购买结果，用于了解付费流程是否正常。
 
+Android 版在购买或恢复购买时，会通过 HTTPS 将商品 ID、Google Play purchaseToken、
+应用版本和 Play Integrity 证明发送到我们在 Google Cloud Run 上的专用服务。该服务
+调用 Google Play Developer API 核实当前购买/订阅状态，并确认已经完成的交易，然后
+只把权益状态返回应用。Roma Tech 不记录或持久保存 purchaseToken、订单资料或商店账号
+信息；token 只在这次实时验证所需的内存和加密传输中处理。Google 会按其自己的政策
+管理 Play 交易记录。
+
 ## 儿童
 
 本应用面向成人学习者，不针对 13 岁以下儿童，也不会有意收集儿童的个人信息。
@@ -133,7 +140,7 @@ Google 账户，并可能在重装或换机时恢复。平台备份由 Apple 或
 
 # Pony — Privacy Policy {#en}
 
-**Last updated: 23 August 2026**
+**Last updated: 24 August 2026**
 
 Pony is a Japanese and English learning app built by **Roma Tech LLC**. This
 policy describes what the app collects, what it does not, and why. The iOS and
@@ -257,6 +264,16 @@ purchases, and manage subscriptions. Anonymous analytics record product ID,
 display price, purchase kind, and outcome to help us detect payment-flow
 problems.
 
+On Android, when you purchase or restore a purchase, the app sends the product
+ID, Google Play purchaseToken, app version, and a Play Integrity attestation
+over HTTPS to our dedicated service on Google Cloud Run. That service calls the
+Google Play Developer API to verify the current purchase or subscription state
+and acknowledge completed transactions, then returns only entitlement status to
+the app. Roma Tech does not log or persist the purchaseToken, order details, or
+store-account information; the token is processed only in memory and encrypted
+transit for this live verification. Google manages Play transaction records
+under its own policies.
+
 ## Children
 
 This app is intended for adult learners. It is not directed at children under
@@ -290,7 +307,7 @@ Email: <a href="mailto:roma.tech.ai@gmail.com">roma.tech.ai@gmail.com</a>
 
 # Pony（小马）— プライバシーポリシー {#ja}
 
-**最終更新日：2026 年 8 月 23 日**
+**最終更新日：2026 年 8 月 24 日**
 
 Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語および英語の学習
 アプリです。本ポリシーでは、本アプリが何を取得し、何を取得しないか、
@@ -411,6 +428,14 @@ Google が管理し、当社は読み取れません。Android の匿名統計�
 ストアから商品、価格、購入・サブスクリプション状態を受け取り、現地通貨価格の表示、
 コンテンツの解除、購入の復元、サブスクリプション管理に使用します。匿名統計には、
 決済フローの不具合を確認するため、商品 ID、表示価格、購入種別、結果を記録します。
+
+Android 版で購入または購入の復元を行う際、商品 ID、Google Play の purchaseToken、
+アプリのバージョン、Play Integrity の証明を HTTPS で Google Cloud Run 上の当社専用
+サービスへ送信します。このサービスは Google Play Developer API を呼び出して現在の
+購入・サブスクリプション状態を検証し、完了した取引を確認したうえで、権利状態だけを
+アプリへ返します。Roma Tech は purchaseToken、注文情報、ストアアカウント情報を
+ログに記録せず、永続保存もしません。token はこのリアルタイム検証に必要なメモリ内処理
+と暗号化通信でのみ扱います。Google は独自のポリシーに従って Play の取引記録を管理します。
 
 ## お子様について
 
