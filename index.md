@@ -2,7 +2,7 @@
 title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリシー
 ---
 
-[中文](#zh) · [English](#en) · [日本語](#ja)
+[中文](#zh) · [English](#en) · [日本語](#ja) · [支持 / Support / サポート](support.html)
 
 # 小马 Pony · 隐私政策 {#zh}
 
