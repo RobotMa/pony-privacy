@@ -6,7 +6,7 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 
 # 小马 Pony · 隐私政策 {#zh}
 
-**最后更新：2026 年 8 月 27 日**
+**最后更新：2026 年 10 月 11 日**
 
 小马（Pony）是一款日语与英语学习应用，由 **Roma Tech LLC** 开发。
 本政策说明这款应用收集什么、不收集什么，以及为什么。iOS 版与 Android 版的
@@ -63,7 +63,7 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 排查和改进相关问题为止。你可以按本页末尾的邮箱联系我们，并提供大致提交时间和
 卡片，以请求删除某条报错。
 
-每条事件附带：应用版本、构建号、系统语言、操作系统版本、距首次安装的天数。
+每条事件附带：应用版本、构建号、安装渠道（正式商店 / 测试版 / 其他来源）、系统语言、操作系统版本、距首次安装的天数。
 
 这些事件关联到一个**在你的设备上随机生成的标识符**（一串随机 UUID，在离开
 设备之前还会先做一次哈希）。它不是你的 Apple ID，不是 Google 账号，不是任何
@@ -176,7 +176,7 @@ Android 版在购买或恢复购买时，会通过 HTTPS 将商品 ID、Google P
 
 # Pony — Privacy Policy {#en}
 
-**Last updated: 27 August 2026**
+**Last updated: 11 October 2026**
 
 Pony is a Japanese and English learning app built by **Roma Tech LLC**. This
 policy describes what the app collects, what it does not, and why. The iOS and
@@ -254,8 +254,7 @@ or seven days. Submitted reports are retained until they are no longer needed
 to investigate and improve the relevant issue. You may request deletion of a
 report by emailing us with its approximate submission time and card.
 
-Each event carries the app version, build number, system locale, OS version,
-and the number of days since first install.
+Each event carries the app version, build number, install channel (official store / beta / other source), system locale, OS version, and the number of days since first install.
 
 Events are keyed to an identifier **generated randomly on your device** (a
 random UUID, hashed before it ever leaves the device). It is not your Apple
@@ -396,7 +395,7 @@ Email: <a href="mailto:roma.tech.ai@gmail.com">roma.tech.ai@gmail.com</a>
 
 # Pony（小马）— プライバシーポリシー {#ja}
 
-**最終更新日：2026 年 8 月 27 日**
+**最終更新日：2026 年 10 月 11 日**
 
 Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語および英語の学習
 アプリです。本ポリシーでは、本アプリが何を取得し、何を取得しないか、
@@ -470,8 +469,7 @@ iOS では報告の添付データを**当社自身の Apple CloudKit コンテ�
 必要でなくなるまで保持します。おおよその送信時刻とカードを添えて下記メールへ
 ご連絡いただければ、該当報告の削除を依頼できます。
 
-各イベントには、アプリのバージョン、ビルド番号、システムの言語設定、OS の
-バージョン、初回インストールからの経過日数が付随します。
+各イベントには、アプリのバージョン、ビルド番号、インストール経路（公式ストア / ベータ版 / その他の入手元）、システムの言語設定、OS のバージョン、初回インストールからの経過日数が付随します。
 
 これらのイベントは、**お使いの端末上でランダムに生成された識別子**に
 紐付きます（ランダムな UUID を、端末から送信する前にハッシュ化したもの）。
