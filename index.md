@@ -6,7 +6,7 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 
 # 小马 Pony · 隐私政策 {#zh}
 
-**最后更新：2026 年 10 月 11 日**
+**最后更新：2026 年 10 月 17 日**
 
 小马（Pony）是一款日语与英语学习应用，由 **Roma Tech LLC** 开发。
 本政策说明这款应用收集什么、不收集什么，以及为什么。iOS 版与 Android 版的
@@ -99,10 +99,21 @@ Android 版的附件还会先经过**我们在 Google Cloud Run 上的中转服�
 
 ## 跟读发音
 
-跟读打分在 iOS 上使用 Apple 的设备端语音识别，在 Android 12（API 31）及以上
-只使用 Android 明确提供的 **on-device speech recognizer**。不支持设备端识别时，
-该功能会显示为不可用，不会回退到可能联网的通用识别服务。**录音不会发送到我们
-的服务器**，也不会被我们存储——识别在你的设备上完成，匿名统计只发送分数
+跟读打分在 iOS 上使用 Apple 的语音识别：
+
+- 如果你的 iPhone 或 iPad 上已经装有这门语言的离线语音包，识别在设备上完成，
+  录音不会离开设备。
+- 如果没有装，那一次跟读的录音会经 Apple 的语音识别服务（Apple 的服务器）转成
+  文字，用于打分。我们的服务器不接收、也不保存这些录音或识别出的文字；Apple 对
+  这些数据的处理适用 [Apple 隐私政策](https://www.apple.com/legal/privacy/)。
+- 你可以在 iOS「设置」›「通用」›「键盘」中打开「启用听写」，并在「听写语言」里
+  勾选这门语言；系统下载离线语音包之后，跟读就会改回在设备上识别。
+
+在 Android 12（API 31）及以上，跟读打分只使用 Android 明确提供的 **on-device
+speech recognizer**。不支持设备端识别时，该功能会显示为不可用，不会回退到可能
+联网的通用识别服务；识别在你的设备上完成。
+
+**录音不会发送到我们的服务器**，也不会被我们存储；匿名统计只发送分数
 （0–100）和识别语言。
 朗读时「读到哪里、哪里变绿」的实时提示同样完全在设备上计算，不涉及任何
 上传。麦克风权限由系统弹窗征询，你可以随时拒绝或
@@ -176,7 +187,7 @@ Android 版在购买或恢复购买时，会通过 HTTPS 将商品 ID、Google P
 
 # Pony — Privacy Policy {#en}
 
-**Last updated: 11 October 2026**
+**Last updated: 17 October 2026**
 
 Pony is a Japanese and English learning app built by **Roma Tech LLC**. This
 policy describes what the app collects, what it does not, and why. The iOS and
@@ -294,13 +305,29 @@ we disclose data to no third party for their own use.
 
 ## Pronunciation practice
 
-Pronunciation scoring uses Apple's on-device speech recognition on iOS. On
-Android 12 (API 31) and later, it uses only Android's explicit **on-device
-speech recognizer**. If on-device recognition is unavailable, the feature is
-shown as unavailable and does not fall back to a generic recognizer that may
-use a network service. **Recordings are never sent to our servers** and are not
-stored by us — recognition happens on your device, and anonymous analytics
-receive only a score (0–100) and the language. The
+On iOS, pronunciation scoring uses Apple's speech recognition:
+
+- If the offline speech pack for that language is already installed on your
+  iPhone or iPad, recognition happens on the device and the recording does not
+  leave it.
+- If it is not installed, the recording of that attempt is sent to Apple's
+  speech recognition service (Apple's servers) to be converted into text for
+  scoring. Our servers do not receive or store these recordings or the
+  recognized text; Apple's handling of this data is governed by the
+  [Apple Privacy Policy](https://www.apple.com/legal/privacy/).
+- You can turn on "Enable Dictation" in iOS Settings › General › Keyboard and
+  select that language under "Dictation Languages". Once the system has
+  downloaded the offline speech pack, scoring switches back to recognition on
+  the device.
+
+On Android 12 (API 31) and later, pronunciation scoring uses only Android's
+explicit **on-device speech recognizer**. If on-device recognition is
+unavailable, the feature is shown as unavailable and does not fall back to a
+generic recognizer that may use a network service; recognition happens on your
+device.
+
+**Recordings are never sent to our servers** and are not stored by us;
+anonymous analytics receive only a score (0–100) and the language. The
 real-time highlight that turns the target text green as you read it is
 likewise computed entirely on your device; nothing is uploaded.
 The system asks for microphone permission; you may decline
@@ -395,7 +422,7 @@ Email: <a href="mailto:roma.tech.ai@gmail.com">roma.tech.ai@gmail.com</a>
 
 # Pony（小马）— プライバシーポリシー {#ja}
 
-**最終更新日：2026 年 10 月 11 日**
+**最終更新日：2026 年 10 月 17 日**
 
 Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語および英語の学習
 アプリです。本ポリシーでは、本アプリが何を取得し、何を取得しないか、
@@ -511,12 +538,26 @@ iOS では報告の添付データを**当社自身の Apple CloudKit コンテ�
 
 ## 発音練習
 
-発音の採点には、iOS では Apple の端末内音声認識を使用します。Android 12
-（API 31）以降では、Android が明示的に提供する **端末内音声認識**だけを使用します。
-端末内認識を利用できない場合、この機能は利用不可と表示され、ネットワークを使う
-可能性のある汎用音声認識へ切り替わることはありません。
+発音の採点には、iOS では Apple の音声認識を使用します。
+
+- お使いの iPhone または iPad にその言語のオフライン用音声データがすでに入って
+  いる場合、認識は端末内で行われ、録音が端末の外に出ることはありません。
+- 入っていない場合は、その回の録音が Apple の音声認識サービス（Apple のサーバー）
+  でテキストに変換され、採点に使われます。当社のサーバーがこれらの録音や認識された
+  テキストを受け取ったり保存したりすることはありません。Apple によるこれらのデータの
+  取り扱いには、[Apple のプライバシーポリシー](https://www.apple.com/jp/legal/privacy/)
+  が適用されます。
+- iOS の「設定」›「一般」›「キーボード」で「音声入力」をオンにし、「音声入力言語」
+  でその言語を選択すると、システムがオフライン用音声データをダウンロードします。
+  ダウンロード後は、端末内での認識に戻ります。
+
+Android 12（API 31）以降では、Android が明示的に提供する **端末内音声認識**だけを
+使用します。端末内認識を利用できない場合、この機能は利用不可と表示され、ネットワーク
+を使う可能性のある汎用音声認識へ切り替わることはありません。Android での認識は
+お使いの端末内で完結します。
+
 **録音データが当社のサーバーへ送信されることはなく**、当社が保存することも
-ありません。認識はお使いの端末内で完結し、当社が受け取るのはスコア
+ありません。当社が受け取るのはスコア
 （0〜100）と認識に使用した言語のみです。読み上げに合わせて対象の文字が
 緑色に変わるリアルタイム表示も、すべて端末内で計算しており、送信は
 一切発生しません。マイクの利用許可は OS のダイアログでお伺いします。
