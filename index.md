@@ -41,6 +41,8 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 此外，iOS 版在界面出现卡顿时会发送一条性能事件：卡顿出现在哪个环节
 （打字、判题、报错弹窗）、次数、最长耗时。不卡就不发。
 
+应用崩溃、停止响应或被系统结束（包括在后台被系统回收）后，会在下一次启动时发送一份诊断摘要：问题类型、出错的代码位置（类名与方法名，或程序模块名与偏移量）、出事时的应用版本与系统版本、设备型号、当时所在的页面类别（仅 Android）和发生时间（精确到小时）。应用还会发送启动耗时（iOS 为系统按天汇总的分布，Android 为单次冷启动的毫秒数）。摘要只从这些固定的技术字段生成，不包含你输入或说出的任何内容、识别结果、学习内容或账号信息；和上面的事件一样，它只关联到下文那个随机标识符。
+
 你在卡片上点「报错」并选择「其他」时，可以**自愿**填写一段说明（不超过
 500 字）。这段话会随报错事件一起发送，**仅用于改进课程内容**，同样匿名、
 不与任何身份关联。不填写不影响报错。
@@ -113,9 +115,7 @@ Android 版的附件还会先经过**我们在 Google Cloud Run 上的中转服�
 - 你可以在 iOS「设置」›「通用」›「键盘」中打开「启用听写」，并在「听写语言」里
   勾选这门语言；系统下载离线语音包之后，跟读就会改回在设备上识别。
 
-在 Android 12（API 31）及以上，跟读打分只使用 Android 明确提供的 **on-device
-speech recognizer**。不支持设备端识别时，该功能会显示为不可用，不会回退到可能
-联网的通用识别服务；识别在你的设备上完成。
+在 Android 上，跟读打分全程在你的设备上完成：优先使用 Android 明确提供的**设备端语音识别**（Android 12 / API 31 及以上）；设备没有设备端识别时，改用**打包在应用里的离线识别模型**（开源的 Vosk，日语与英语），同样只在设备上运行。两种方式都不会回退到可能联网的通用识别服务。缺少系统语音包时，应用会提供下载入口，语音包由系统下载。
 
 **录音不会发送到我们的服务器**，也不会被我们存储；匿名统计只发送分数
 （0–100）和识别语言。
@@ -240,6 +240,8 @@ On iOS the app also sends a performance event when the interface stalls:
 where the stall happened (typing, answer checking, the report dialog), how
 many times, and the longest duration. Nothing is sent when nothing stalls.
 
+If the app crashes, stops responding, or is terminated by the system (including being reclaimed in the background), it sends a diagnostic summary the next time it starts: the type of problem, where in the code it happened (class and method names, or module name and offset), the app and OS versions at the time, the device model, the kind of screen you were on (Android only), and when it happened (to the hour). The app also sends launch times (on iOS, a daily distribution compiled by the system; on Android, the duration of a cold start in milliseconds). The summary is built only from these fixed technical fields. It contains nothing you typed or said, no recognition results, no learning content and no account information, and like the events above it is associated only with the random identifier described below.
+
 When you report a card issue and choose "other", you may **voluntarily** type
 a note (up to 500 characters). It is sent with the report, is used **only to
 improve the course content**, and is anonymous like everything else.
@@ -331,11 +333,7 @@ On iOS, pronunciation scoring uses Apple's speech recognition:
   downloaded the offline speech pack, scoring switches back to recognition on
   the device.
 
-On Android 12 (API 31) and later, pronunciation scoring uses only Android's
-explicit **on-device speech recognizer**. If on-device recognition is
-unavailable, the feature is shown as unavailable and does not fall back to a
-generic recognizer that may use a network service; recognition happens on your
-device.
+On Android, pronunciation scoring happens entirely on your device. The app first uses Android's explicit **on-device speech recognizer** (Android 12 / API 31 and later). If the device has no on-device recognizer, it uses an **offline recognition model bundled with the app** (the open-source Vosk, for Japanese and English), which also runs only on the device. Neither path falls back to a generic recognizer that may use a network service. If a system speech pack is missing, the app offers a download link and the system downloads the pack.
 
 **Recordings are never sent to our servers** and are not stored by us;
 anonymous analytics receive only a score (0–100) and the language. The
@@ -480,6 +478,8 @@ Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語およ�
 します。内容は、どの場面で起きたか（入力中、正誤判定、不具合報告ダイアログ）、
 回数、最長の所要時間です。引っかかりがなければ何も送信しません。
 
+アプリがクラッシュした場合、応答しなくなった場合、またはシステムによって終了された場合（バックグラウンドでの回収を含みます）、次回の起動時に診断の要約を送信します。内容は、問題の種類、発生したコード上の位置（クラス名とメソッド名、またはモジュール名とオフセット）、発生時のアプリと OS のバージョン、端末の機種、そのとき表示していた画面の種類（Android のみ）、発生日時（1 時間単位）です。あわせて起動にかかった時間も送信します（iOS ではシステムが日ごとに集計した分布、Android ではコールドスタート 1 回分の所要時間〔ミリ秒〕）。要約はこれらの決まった技術項目だけから作られ、お客様が入力・発話した内容、認識結果、学習内容、アカウント情報は一切含みません。上記のイベントと同様、下記のランダムな識別子にのみ関連付けられます。
+
 カードの不具合報告で「その他」を選択した場合、**任意で**説明文
 （500 文字以内）を記入できます。この文章は報告と一緒に送信され、
 **教材の改善のみに使用**されます。他の情報と同様に匿名で、いかなる身元
@@ -569,10 +569,7 @@ iOS では報告の添付データを**当社自身の Apple CloudKit コンテ�
   でその言語を選択すると、システムがオフライン用音声データをダウンロードします。
   ダウンロード後は、端末内での認識に戻ります。
 
-Android 12（API 31）以降では、Android が明示的に提供する **端末内音声認識**だけを
-使用します。端末内認識を利用できない場合、この機能は利用不可と表示され、ネットワーク
-を使う可能性のある汎用音声認識へ切り替わることはありません。Android での認識は
-お使いの端末内で完結します。
+Android では、発音の採点はすべてお使いの端末内で行われます。まず Android が明示的に提供する**端末内音声認識**（Android 12 / API 31 以降）を使用し、端末内認識がない端末では、**アプリに同梱したオフライン認識モデル**（オープンソースの Vosk、日本語と英語）を使用します。これも端末内でのみ動作します。どちらの場合も、ネットワークを使う可能性のある汎用音声認識へ切り替わることはありません。システムの音声データが足りない場合はダウンロードの案内を表示し、音声データはシステムがダウンロードします。
 
 **録音データが当社のサーバーへ送信されることはなく**、当社が保存することも
 ありません。当社が受け取るのはスコア
