@@ -26,7 +26,8 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
   内容**只保存在你的设备上**，不会离开设备。只有你主动提交报错时有两个例外：
   选「其他」后你**自愿填写**的那段说明，以及截图上当时可见的答题文字
   （见「匿名使用统计」）。除此之外，报错随附的诊断信息里不含你输入的文字。
-- **不上传录音。** 见下方「跟读发音」一节。
+- **我们不接收、不保存录音。** iPhone 或 iPad 上没有装这门语言的离线语音包时，
+  跟读录音由 Apple 的语音识别服务识别，见下方「[跟读发音](#跟读发音)」一节。
 
 ## 我们收集的东西
 
@@ -104,8 +105,11 @@ Android 版的附件还会先经过**我们在 Google Cloud Run 上的中转服�
 - 如果你的 iPhone 或 iPad 上已经装有这门语言的离线语音包，识别在设备上完成，
   录音不会离开设备。
 - 如果没有装，那一次跟读的录音会经 Apple 的语音识别服务（Apple 的服务器）转成
-  文字，用于打分。我们的服务器不接收、也不保存这些录音或识别出的文字；Apple 对
-  这些数据的处理适用 [Apple 隐私政策](https://www.apple.com/legal/privacy/)。
+  文字，用于打分。我们的服务器不接收、也不保存这些录音或识别出的文字。例外：
+  如果你在显示跟读得分的界面上主动点「报错」，那张截图会包含屏幕上显示的识别
+  文字（「识别到：…」），并随报错一起发给我们（Android 版同样如此，见
+  「[匿名使用统计](#匿名使用统计)」）。Apple 对这些数据的处理适用
+  [Apple 隐私政策](https://www.apple.com/legal/privacy/)。
 - 你可以在 iOS「设置」›「通用」›「键盘」中打开「启用听写」，并在「听写语言」里
   勾选这门语言；系统下载离线语音包之后，跟读就会改回在设备上识别。
 
@@ -216,7 +220,10 @@ Android versions differ; both are covered below.
   on screen at that moment, which appears in the screenshot (see "Anonymous
   usage analytics"). Apart from those, the diagnostics attached to a report
   contain no text you typed.
-- **No audio recordings.** See "Pronunciation practice" below.
+- **We do not receive or store recordings.** On iOS, if the offline speech pack
+  for that language is not installed on your iPhone or iPad, the recording is
+  sent to Apple's speech recognition service; see
+  "[Pronunciation practice](#pronunciation-practice)" below.
 
 ## What we do collect
 
@@ -313,7 +320,11 @@ On iOS, pronunciation scoring uses Apple's speech recognition:
 - If it is not installed, the recording of that attempt is sent to Apple's
   speech recognition service (Apple's servers) to be converted into text for
   scoring. Our servers do not receive or store these recordings or the
-  recognized text; Apple's handling of this data is governed by the
+  recognized text. One exception: if you tap "report" on the screen that shows
+  your pronunciation score, the screenshot includes the recognized text shown
+  on screen (the "识别到：…" line) and is sent to us with the report (the same
+  applies on Android; see "[Anonymous usage analytics](#anonymous-usage-analytics)").
+  Apple's handling of this data is governed by the
   [Apple Privacy Policy](https://www.apple.com/legal/privacy/).
 - You can turn on "Enable Dictation" in iOS Settings › General › Keyboard and
   select that language under "Dictation Languages". Once the system has
@@ -450,7 +461,10 @@ Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語およ�
   **任意で**記入いただく説明文と、その時点でスクリーンショットに表示されて
   いる解答文字です（「匿名の利用統計」を参照）。これら以外に、報告へ添付される
   診断情報に入力されたテキストが含まれることはありません。
-- **録音データを送信しません。** 下記「発音練習」をご覧ください。
+- **録音データを当社が受け取ったり保存したりすることはありません。** iOS で、
+  お使いの iPhone または iPad にその言語のオフライン用音声データが入っていない
+  場合は、録音が Apple の音声認識サービスで認識されます。下記「[発音練習](#発音練習)」
+  をご覧ください。
 
 ## 取得するもの
 
@@ -544,7 +558,11 @@ iOS では報告の添付データを**当社自身の Apple CloudKit コンテ�
   いる場合、認識は端末内で行われ、録音が端末の外に出ることはありません。
 - 入っていない場合は、その回の録音が Apple の音声認識サービス（Apple のサーバー）
   でテキストに変換され、採点に使われます。当社のサーバーがこれらの録音や認識された
-  テキストを受け取ったり保存したりすることはありません。Apple によるこれらのデータの
+  テキストを受け取ったり保存したりすることはありません。ただし例外として、発音の
+  スコアが表示されている画面でお客様が「不具合報告」を送信された場合、その
+  スクリーンショットには画面に表示されている認識テキスト（「识别到：…」の行）が
+  含まれ、報告と一緒に当社へ送信されます（Android 版も同様です。
+  「[匿名の利用統計](#匿名の利用統計)」を参照）。Apple によるこれらのデータの
   取り扱いには、[Apple のプライバシーポリシー](https://www.apple.com/jp/legal/privacy/)
   が適用されます。
 - iOS の「設定」›「一般」›「キーボード」で「音声入力」をオンにし、「音声入力言語」
