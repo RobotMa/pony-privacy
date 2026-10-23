@@ -4,6 +4,8 @@ title: 小马 Pony — 支持 / Support / サポート
 
 [中文](#zh) · [English](#en) · [日本語](#ja)
 
+常见问题（中文 / English）：[Pony FAQ](https://robotma.github.io/pony-privacy/faq/)
+
 # 小马 Pony · 支持 {#zh}
 
 小马（Pony）是一款面向中文母语者的日语 + 英语学习应用，由 **Roma Tech LLC** 开发。
