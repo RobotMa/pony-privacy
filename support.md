@@ -46,7 +46,7 @@ iPhone 设置 → 点最上方你的名字 → 订阅 → 小马 Pony → 取消
 ### 怎么删除我的数据？
 
 卸载应用即可删除设备上的全部内容。iCloud / Google 备份可在对应系统设置里删除。
-匿名使用统计不与任何身份关联，删除应用后标识符即被重置。
+使用统计只关联一个在设备上随机生成的标识符，不与姓名、邮箱或账号关联；删除应用后标识符即被重置。
 详见<a href="./">隐私政策</a>。
 
 ### 发音打分把我判错了
@@ -107,8 +107,9 @@ current card (our own UI only). This is the fastest channel — we read every on
 ### How do I delete my data?
 
 Uninstalling the app removes everything stored on the device. iCloud / Google backups
-can be deleted in the corresponding system settings. Anonymous usage statistics are not
-linked to any identity, and the identifier resets when the app is removed.
+can be deleted in the corresponding system settings. Usage statistics are linked only to an
+identifier generated randomly on the device — not to your name, email address, or any
+account — and the identifier resets when the app is removed.
 See the <a href="./">Privacy Policy</a>.
 
 ### Pronunciation scoring marked me wrong
@@ -168,8 +169,9 @@ Pony 小马 → 解約。現在の請求期間の終了までは引き続きご�
 ### データを削除するには？
 
 アプリを削除すると端末内のデータはすべて消えます。iCloud / Google のバックアップは
-各システム設定から削除できます。匿名の利用統計はいかなる identity とも紐づいておらず、
-アプリ削除により識別子はリセットされます。詳しくは<a href="./">プライバシーポリシー</a>をご覧ください。
+各システム設定から削除できます。利用統計は端末上でランダムに生成された識別子にのみ
+紐付き、氏名、メールアドレス、アカウントとは結び付いていません。アプリ削除により識別子は
+リセットされます。詳しくは<a href="./">プライバシーポリシー</a>をご覧ください。
 
 ### 発音判定が正しくありません
 
