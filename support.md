@@ -91,7 +91,7 @@ write to us with your receipt.
 ### How do I cancel a subscription?
 
 Subscriptions are managed by Apple: iPhone Settings → tap your name at the top →
-Subscriptions → Pony 小马 → Cancel. You keep access until the current period ends.
+Subscriptions → Pony: Learn Japanese & English → Cancel. You keep access until the current period ends.
 
 ### How much is free?
 
@@ -153,7 +153,7 @@ Email: <a href="mailto:roma.tech.ai@gmail.com">roma.tech.ai@gmail.com</a>
 ### サブスクリプションの解約方法は？
 
 解約は Apple 側で行います：iPhone の設定 → 上部のお名前 → サブスクリプション →
-Pony 小马 → 解約。現在の請求期間の終了までは引き続きご利用いただけます。
+Pony 小马：日语英语同时学 → 解約。現在の請求期間の終了までは引き続きご利用いただけます。
 
 ### 無料でどこまで学べますか？
 
