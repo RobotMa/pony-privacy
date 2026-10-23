@@ -6,7 +6,7 @@ title: 小马 Pony — 隐私政策 / Privacy Policy / プライバシーポリ�
 
 # 小马 Pony · 隐私政策 {#zh}
 
-**最后更新：〔发布日〕**
+**最后更新：2026 年 10 月 23 日**
 
 小马（Pony）是一款日语与英语学习应用，由 **Roma Tech LLC** 开发。
 本政策说明这款应用收集什么、不收集什么，以及为什么。iOS 版与 Android 版的
@@ -294,7 +294,7 @@ Roma Tech LLC 位于美国。你通过应用直接提供给我们的数据，由
 
 # Pony — Privacy Policy {#en}
 
-**Last updated: [publication date]**
+**Last updated: 23 October 2026**
 
 Pony is a Japanese and English learning app built by **Roma Tech LLC**. This
 policy describes what the app collects, what it does not, and why. The iOS and
@@ -674,7 +674,7 @@ Email: <a href="mailto:roma.tech.ai@gmail.com">roma.tech.ai@gmail.com</a>
 
 # Pony（小马）— プライバシーポリシー {#ja}
 
-**最終更新日：〔公開日〕**
+**最終更新日：2026 年 10 月 23 日**
 
 Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語および英語の学習
 アプリです。本ポリシーでは、本アプリが何を取得し、何を取得しないか、
