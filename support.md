@@ -1,12 +1,12 @@
 ---
-title: 小马 Pony — 支持 / Support / サポート
+title: Pony 小马 — 支持 / Support / サポート
 ---
 
 [中文](#zh) · [English](#en) · [日本語](#ja)
 
 常见问题（中文 / English）：[Pony FAQ](https://robotma.github.io/pony-privacy/faq/)
 
-# 小马 Pony · 支持 {#zh}
+# Pony 小马 · 支持 {#zh}
 
 小马（Pony）是一款面向中文母语者的日语 + 英语学习应用，由 **Roma Tech LLC** 开发。
 
@@ -30,7 +30,7 @@ title: 小马 Pony — 支持 / Support / サポート
 ### 怎么取消订阅？
 
 订阅由 Apple 管理，取消也在 Apple 那边：
-iPhone 设置 → 点最上方你的名字 → 订阅 → 小马 Pony → 取消订阅。
+iPhone 设置 → 点最上方你的名字 → 订阅 → Pony 小马：日语英语同时学 → 取消订阅。
 取消后当前计费周期内仍可继续使用，到期不再续费。
 
 ### 免费能学多少？
@@ -128,7 +128,7 @@ Email: <a href="mailto:roma.tech.ai@gmail.com">roma.tech.ai@gmail.com</a>
 
 ---
 
-# 小马 Pony · サポート {#ja}
+# Pony 小马 · サポート {#ja}
 
 小马（Pony）は、中国語話者向けの日本語・英語学習アプリです。開発は **Roma Tech LLC**。
 
