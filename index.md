@@ -6,7 +6,7 @@ title: Pony 小马 — 隐私政策 / Privacy Policy / プライバシーポリ�
 
 # Pony 小马 · 隐私政策 {#zh}
 
-**最后更新：2026 年 10 月 23 日**
+**最后更新：2026 年 10 月 31 日**
 
 小马（Pony）是一款日语与英语学习应用，由 **Roma Tech LLC** 开发。
 本政策说明这款应用收集什么、不收集什么，以及为什么。iOS 版与 Android 版的
@@ -154,7 +154,7 @@ Google 声明这些数据加密传输、按固定期限删除；我们不将其�
 在 Android 上，跟读打分全程在你的设备上完成：优先使用 Android 明确提供的**设备端语音识别**（Android 12 / API 31 及以上）；设备没有设备端识别时，改用**打包在应用里的离线识别模型**（开源的 Vosk，日语与英语），同样只在设备上运行。两种方式都不会回退到可能联网的通用识别服务。缺少系统语音包时，应用会提供下载入口，语音包由系统下载。
 
 **录音不会发送到我们的服务器**，也不会被我们存储；使用统计只发送分数
-（0–100）和识别语言。
+（0–100）、识别语言和是哪张卡。
 朗读时「读到哪里、哪里变绿」的实时提示同样完全在设备上计算，不涉及任何
 上传。麦克风权限由系统弹窗征询，你可以随时拒绝或
 在系统设置中撤销；拒绝后其余功能完全不受影响。
@@ -299,7 +299,7 @@ Roma Tech LLC 位于美国。你通过应用直接提供给我们的数据，由
 
 # Pony — Privacy Policy {#en}
 
-**Last updated: 23 October 2026**
+**Last updated: 31 October 2026**
 
 Pony is a Japanese and English learning app built by **Roma Tech LLC**. This
 policy describes what the app collects, what it does not, and why. The iOS and
@@ -499,7 +499,7 @@ On iOS, pronunciation scoring uses Apple's speech recognition:
 On Android, pronunciation scoring happens entirely on your device. The app first uses Android's explicit **on-device speech recognizer** (Android 12 / API 31 and later). If the device has no on-device recognizer, it uses an **offline recognition model bundled with the app** (the open-source Vosk, for Japanese and English), which also runs only on the device. Neither path falls back to a generic recognizer that may use a network service. If a system speech pack is missing, the app offers a download link and the system downloads the pack.
 
 **Recordings are never sent to our servers** and are not stored by us;
-usage analytics receive only a score (0–100) and the language. The
+usage analytics receive only a score (0–100), the language and which card it was. The
 real-time highlight that turns the target text green as you read it is
 likewise computed entirely on your device; nothing is uploaded.
 The system asks for microphone permission; you may decline
@@ -687,7 +687,7 @@ Email: <a href="mailto:roma.tech.ai@gmail.com">roma.tech.ai@gmail.com</a>
 
 # Pony（小马）— プライバシーポリシー {#ja}
 
-**最終更新日：2026 年 10 月 23 日**
+**最終更新日：2026 年 10 月 31 日**
 
 Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語および英語の学習
 アプリです。本ポリシーでは、本アプリが何を取得し、何を取得しないか、
@@ -876,7 +876,7 @@ Android では、発音の採点はすべてお使いの端末内で行われま
 
 **録音データが当社のサーバーへ送信されることはなく**、当社が保存することも
 ありません。当社が受け取るのはスコア
-（0〜100）と認識に使用した言語のみです。読み上げに合わせて対象の文字が
+（0〜100）、認識に使用した言語、およびどのカードかのみです。読み上げに合わせて対象の文字が
 緑色に変わるリアルタイム表示も、すべて端末内で計算しており、送信は
 一切発生しません。マイクの利用許可は OS のダイアログでお伺いします。
 いつでも拒否でき、設定からの取り消しも可能です。拒否された場合でも、
