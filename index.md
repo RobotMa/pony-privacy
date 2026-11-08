@@ -6,7 +6,7 @@ title: Pony 小马 — 隐私政策 / Privacy Policy / プライバシーポリ�
 
 # Pony 小马 · 隐私政策 {#zh}
 
-**最后更新：2026 年 11 月 7 日**
+**最后更新：2026 年 11 月 8 日**
 
 小马（Pony）是一款日语与英语学习应用，由 **Roma Tech LLC** 开发。
 本政策说明这款应用收集什么、不收集什么，以及为什么。iOS 版与 Android 版的
@@ -34,7 +34,7 @@ title: Pony 小马 — 隐私政策 / Privacy Policy / プライバシーポリ�
 - **不上传你输入的文字（报错时的两个例外见下）。** 你在「学习目标」里手写的
   内容**不会发送给我们**：它保存在你的设备上，并可能随你自己的 iCloud 或 Google
   备份同步（见「你的学习进度」），我们读不到。只有你主动提交报错时有两个例外：
-  选「其他」后你**自愿填写**的那段说明，以及截图上当时可见的答题文字
+  选择任一原因后你**自愿填写**的那段说明，以及截图上当时可见的答题文字
   （见「使用统计」）。除此之外，报错随附的诊断信息里不含你输入的文字。
 - **我们不接收、不保存录音。** iPhone 或 iPad 上没有装这门语言的离线语音包时，
   跟读录音由 Apple 的语音识别服务识别，见下方「[跟读发音](#跟读发音)」一节。
@@ -61,7 +61,7 @@ iOS 版在你的 iCloud 键值存储空间已满、无法备份进度时，会�
 
 应用崩溃、停止响应或被系统结束（包括在后台被系统回收）后，会在下一次启动时发送一份诊断摘要：问题类型、出错的代码位置（类名与方法名，或程序模块名与偏移量）、出事时的应用版本与系统版本、设备型号、当时所在的页面类别（仅 Android）和发生时间（精确到小时）。应用还会发送启动耗时（iOS 为系统按天汇总的分布，Android 为单次冷启动的毫秒数）。摘要只从这些固定的技术字段生成，不包含你输入或说出的任何内容、识别结果、学习内容或账号信息；和上面的事件一样，它只关联到下文那个随机标识符。
 
-你在卡片上点「报错」并选择「其他」时，可以**自愿**填写一段说明（不超过
+你在卡片上点「报错」并选择任一原因后，可以**自愿**填写一段说明（不超过
 500 字）。这段话会随报错一起发送，并作为一条使用统计事件发送，**仅用于改进
 课程内容**。作为使用统计事件的那一份，不与姓名、邮箱或账号关联；随报错发送的那一份，
 在 iOS 上会与报错附带的、由 Apple 生成的用户记录编号关联（见下文；该编号不是你的
@@ -299,7 +299,7 @@ Roma Tech LLC 位于美国。你通过应用直接提供给我们的数据，由
 
 # Pony — Privacy Policy {#en}
 
-**Last updated: 7 November 2026**
+**Last updated: 8 November 2026**
 
 Pony is a Japanese and English learning app built by **Roma Tech LLC**. This
 policy describes what the app collects, what it does not, and why. The iOS and
@@ -380,7 +380,7 @@ we do not learn whether or how you rated.
 
 If the app crashes, stops responding, or is terminated by the system (including being reclaimed in the background), it sends a diagnostic summary the next time it starts: the type of problem, where in the code it happened (class and method names, or module name and offset), the app and OS versions at the time, the device model, the kind of screen you were on (Android only), and when it happened (to the hour). The app also sends launch times (on iOS, a daily distribution compiled by the system; on Android, the duration of a cold start in milliseconds). The summary is built only from these fixed technical fields. It contains nothing you typed or said, no recognition results, no learning content and no account information, and like the events above it is associated only with the random identifier described below.
 
-When you report a card issue and choose "other", you may **voluntarily** type
+When you report a card issue, after choosing any reason, you may **voluntarily** type
 a note (up to 500 characters). It is sent with the report and also as a usage
 analytics event, and is used **only to improve the course content**. The copy
 sent as a usage analytics event is not linked to your name, email address, or
@@ -687,7 +687,7 @@ Email: <a href="mailto:roma.tech.ai@gmail.com">roma.tech.ai@gmail.com</a>
 
 # Pony（小马）— プライバシーポリシー {#ja}
 
-**最終更新日：2026 年 11 月 7 日**
+**最終更新日：2026 年 11 月 8 日**
 
 Pony（小马）は、**Roma Tech LLC** が開発・提供する日本語および英語の学習
 アプリです。本ポリシーでは、本アプリが何を取得し、何を取得しないか、
@@ -725,7 +725,7 @@ EU 一般データ保護規則（GDPR）などの基準では、このような*
   「学習の目的」欄に記入された内容が**当社に送信されることはありません**。
   内容は端末内に保存され、お客様ご自身の iCloud または Google のバックアップと
   同期される場合がありますが（「学習の進捗」を参照）、当社は読み取れません。例外は、お客様ご自身が不具合報告を送信
-  される場合の 2 点のみです。カードの不具合報告で「その他」を選択した際に
+  される場合の 2 点のみです。カードの不具合報告でいずれかの理由を選択した際に
   **任意で**記入いただく説明文と、その時点でスクリーンショットに表示されて
   いる解答文字です（「利用統計」を参照）。これら以外に、報告へ添付される
   診断情報に入力されたテキストが含まれることはありません。
@@ -762,7 +762,7 @@ iOS 版では、iCloud のキー値ストレージが一杯で進捗をバック
 
 アプリがクラッシュした場合、応答しなくなった場合、またはシステムによって終了された場合（バックグラウンドでの回収を含みます）、次回の起動時に診断の要約を送信します。内容は、問題の種類、発生したコード上の位置（クラス名とメソッド名、またはモジュール名とオフセット）、発生時のアプリと OS のバージョン、端末の機種、そのとき表示していた画面の種類（Android のみ）、発生日時（1 時間単位）です。あわせて起動にかかった時間も送信します（iOS ではシステムが日ごとに集計した分布、Android ではコールドスタート 1 回分の所要時間〔ミリ秒〕）。要約はこれらの決まった技術項目だけから作られ、お客様が入力・発話した内容、認識結果、学習内容、アカウント情報は一切含みません。上記のイベントと同様、下記のランダムな識別子にのみ関連付けられます。
 
-カードの不具合報告で「その他」を選択した場合、**任意で**説明文
+カードの不具合報告でいずれかの理由を選択した場合、**任意で**説明文
 （500 文字以内）を記入できます。この文章は報告と一緒に送信されるほか、
 利用統計のイベントとしても送信され、**教材の改善のみに使用**されます。利用統計の
 イベントとして送信される分は、氏名、メールアドレス、アカウントとは結び付きません。
